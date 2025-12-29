@@ -14,24 +14,24 @@
         </header>
         <main>
             <label for="Họ và tên">Họ và tên</label>
-            <input type="name" name="Họ và tên" id="Họ và tên">
+            <input type="name" name="Họ và tên" id="Họ và tên" value="Nguyễn Văn An">
             <br> <br>
             <label for="Ngày sinh">Ngày sinh đầy đủ</label>
-            <input type="date" name="Ngày sinh đầy đủ" id="Ngày sinh">
+            <input type="date" name="Ngày sinh đầy đủ" id="Ngày sinh" value="2005-03-15">
             <br> <br>
             <label for="Tháng và năm nhập học">Tháng và năm nhập học</label>
-            <input type="month" name="Tháng và năm nhập học" id="Tháng và năm nhập học">
+            <input type="month" name="Tháng và năm nhập học" id="Tháng và năm nhập học" value="2023-09">
             <br> <br>
             <label for="Thời gian học">Thời gian học</label>
-            <input type="time" name="Thời gian học" id="Thời gian học">
+            <input type="time" name="Thời gian học" id="Thời gian học" value="08:00">
             <br> <br>
             <label for="Giới tính">Giới tính</label>
             <input type="radio" name="Giới tính" id="Giới tính" value="nam">Nam
             <input type="radio" name="Giới tính" id="Giới tính" value="Nữ">Nữ
-            <input type="radio" name="Giới tính" id="Giới tính" value="Khác">Khác
+            <input type="radio" name="Giới tính" id="Giới tính" value="Khác" checked>Khác
             <br> <br>
             <label for="email sinh viên">Email sinh viên</label>
-            <input placeholder="siuu@university.deu.vn" type="email" name="email sinh viên" id="email sinh viên">
+            <input placeholder="siuu@university.deu.vn" type="email" name="email sinh viên" id="email sinh viên" value="sinhvien@university.edu.vn">
             <br> <br>
             <label for="Mật khẩu">Mật khẩu</label>
             <input type="password" name="Mật khẩu" id="Mật khẩu">
@@ -49,8 +49,8 @@
             <input type="file" name="Ảnh thẻ sinh viên" id="Ảnh thẻ sinh viên" multiple>
             <br> <br>
             <label for="Môn học yêu thích">Môn học yêu thích</label>
-            <input type="checkbox" name="Môn học yêu thích" id="Môn học yêu thích" value="Toán học">Toán học
-            <input type="checkbox" name="Môn học yêu thích" id="Môn học yêu thích" value="Lập trình">Lập trình
+            <input type="checkbox" name="Môn học yêu thích" id="Môn học yêu thích" value="Toán học" checked>Toán học
+            <input type="checkbox" name="Môn học yêu thích" id="Môn học yêu thích" value="Lập trình" checked>Lập trình
             <input type="checkbox" name="Môn học yêu thích" id="Môn học yêu thích" value="Tiếng Anh">Tiếng anh
             <input type="checkbox" name="Môn học yêu thích" id="Môn học yêu thích" value="Vật lý">Vật lý
             <br> <br>
@@ -58,13 +58,10 @@
             <input type="range" name="Tiến độ học tập" id="Tiến độ học tập">
             <br> <br>
             <label for="Năm học thứ">Năm học thứ</label>
-            <input type="number" name="Năm học thứ" id="Năm học thứ">
+            <input type="number" name="Năm học thứ" id="Năm học thứ" value="2" min="1" max="5">
             <br> <br>
             <label for="Tìm kiếm khóa học">Tìm kiếm khóa học</label>
-            <select name="Tìm kiếm khóa học" id="Tìm kiếm khóa học">
-                <option value="Khoa học máy tính">Khoa học máy tính</option>
-                <option value="HTML & CSS">HTML & CSS</option>
-            </select>
+            <input type="search" id="Tìm kiếm khóa học" name="Tìm kiếm khóa học" value="Khoa học máy tính">
             <br> <br>
             <label for="Màu sắc yêu thích">Màu sắc yêu thích</label>
             <input type="color" name="Màu sắc yêu thích" id="Màu sắc yêu thích" value="">
@@ -75,5 +72,6 @@
         </main>
     </form>
 </body>
+
 
 </html>
