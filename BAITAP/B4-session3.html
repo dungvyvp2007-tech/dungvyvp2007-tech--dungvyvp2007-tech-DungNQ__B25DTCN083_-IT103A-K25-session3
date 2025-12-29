@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B4</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="name">Họ và tên:</label>
+        <input type="name" name="Name" id="name">
+        <br>
+        <label for="Dateofbirth">Ngày sinh:</label>
+        <input type="date" name="Dateofbirth" id="Dateofbirth">
+        <br>
+        <label for="sex">Giới tính:</label>
+        <input type="radio" name="Sex" id="sex" value="Male">Nam
+        <input type="radio" name="Sex" id="sex" value="Female">Nữ
+        <br>
+        <label for="CCCD">Số căn cước công dân:</label>
+        <input type="number" name="CCCD" id="CCCD">
+        <br>
+        <label for="date of issue">Ngày cấp:</label>
+        <input type="date" name="date of issue" id="date of issue">
+        <br>
+        <label for="issuing authority">Nơi cấp:</label>
+        <input type="text" name="issuing authority" id="issuing authority">
+        <br>
+        <label for="Telephone">Số điện thoại:</label>
+        <input type="tel" name="Telephone" id="Telephone">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email">
+        <br>
+        <label for="Permanent address">Địa chỉ thường trú:</label>
+        <textarea name="Permanent address" id="Permanent address"></textarea>
+        <br>
+        <label for="Temporary address">Địa chỉ tạm trú:</label>
+        <textarea name="Temporary address" id="Temporary address"></textarea>
+        <br>
+        <label for="typeofcitizenidentitycard">Loại căn cước công dân:</label>
+        <input type="radio" name="typeofcitizenidentitycard" id="typeofcitizenidentitycard"
+            value="new citizen identity card"></input>Căn cước công dân mới
+        <input type="radio" name="typeofcitizenidentitycard" id="typeofcitizenidentitycard"
+            value="old citizen identity card"></input>Căn cước công dân cũ
+        <br>
+        <label for="nation">Dân tộc:</label>
+        <input type="text" name="nation" id="nation">
+        <br>
+        <label for="religion">Tôn giáo</label>
+        <input type="text" name="religion" id="religion">
+        <br>
+        <label for="nationally">Quốc tịch:</label>
+        <input type="text" name="nationally" id="nationally" value="Việt Nam" readonly>
+        <br>
+        <label for="Name parent">Họ tên cha/mẹ:</label>
+        <input type="text" name="Name parent" id="Name parent">
+        <br>
+        <label for="Số CMND/CCCD của cha/mẹ ">Số CMND/CCCD của cha/mẹ</label>
+        <input type="number" name="Số CMND/CCCD của cha/mẹ" id="Số CMND/CCCD của cha/mẹ">
+        <br>
+        <label for="Tỉnh/Thành phố">Tỉnh/Thành phố</label>
+        <select name="Tỉnh/Thành phố" id="Tỉnh/Thành phố">
+            <option value="Choose">Chọn Tỉnh/Thành phố</option>
+            <option value="HaNoi">Hà Nội</option>
+            <option value="TP HoChiMinh">Thành phố Hồ Chí Minh</option>
+        </select>
+        <br>
+        <button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+
+</html>
